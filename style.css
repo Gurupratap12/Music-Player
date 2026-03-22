@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://wallpapers.com/images/hd/rainy-themed-background-image-jtpteebhb9agg1ej.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+height: 400px;
+width: 370px;
+margin-top: 40px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(10xp);
+-webkit-backdrop-filter: blur(10px);
+
+}
+h2{
+    padding: 10%;
+    text-align: center;
+    border-bottom: 2px dashed;
+}
+input{
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    
+}
+.input{
+    font-size:x-large;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    transition: all 0.3s ease;
+}
+input:focus{
+    border-color: rgb(83, 83, 145);
+    box-shadow: 0 0 5px rgba(88, 88, 150, 0.5);
+    outline: none;
+}
+.btn{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+     gap: 10px;
+     
+        
+}
+#login{
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+#signup{
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
